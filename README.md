@@ -298,15 +298,6 @@ interface CountUpOptions {
 isSouthChinaSea:false,//默认不显示南海，改为true可显示南海
 ```
 
-## 全局参数
-
-### filter
-
-监测数据项统一过滤，保留两位小数。
-
-```vue
-{{10.23123|montionFilter }}
-```
 
 ##  大屏交流反馈（面条的群）
 
