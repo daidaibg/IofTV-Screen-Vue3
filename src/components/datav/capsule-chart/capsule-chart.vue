@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { onMounted, reactive, ref, watch } from "vue";
 import type { DefaultConfigType } from "./index.d";
-import cloneDeep from "lodash/cloneDeep";
-import merge from "lodash/merge";
+import { cloneDeep } from "lodash-es";
+import { merge } from "lodash-es";
 const mergedConfig = ref<any>(null);
 const capsuleLength = ref<any>([]);
 const capsuleValue = ref<any>([]);

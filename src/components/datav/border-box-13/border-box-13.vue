@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref ,onBeforeUpdate, nextTick} from "vue";
-import merge from "lodash/merge";
+import { merge } from "lodash-es";
 import { useElementSize  } from "@vueuse/core";
 import type { PropType } from "vue";
 

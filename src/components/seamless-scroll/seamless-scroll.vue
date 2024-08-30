@@ -9,7 +9,7 @@ import {
   nextTick,
 } from "vue";
 import type { CSSProperties } from "vue";
-import throttle from "lodash/throttle";
+import { throttle } from "lodash-es";
 type propsType = {
   modelValue?: boolean;
   list: Array<any>;
