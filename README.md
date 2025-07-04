@@ -37,11 +37,11 @@
 
 **项目展示** 
 
-![项目展示](https://www.daidaibg.com/bigscreen/a-img/home.png)
+![项目展示](https://www.gaobug.com/bigscreen/a-img/home.png)
 
 ### 项目预览地址
 
-[https://www.daidaibg.com/bigscreen-vue3](https://www.daidaibg.com/bigscreen-vue3)
+[https://www.gaobug.com/bigscreen-vue3](https://www.gaobug.com/bigscreen-vue3)
 
 ### 项目仓库地址
 
@@ -74,7 +74,7 @@
 项目中可以进行滚动配置，内容是否滚动
 
 点击右上角设置按钮
-![设置](https://www.daidaibg.com/bigscreen/a-img/setting.png)
+![设置](https://www.gaobug.com/bigscreen/a-img/setting.png)
 
 
 
@@ -82,7 +82,7 @@
 
 
 
-![在这里插入图片描述](https://www.daidaibg.com/bigscreen/a-img/setting2.png)
+![在这里插入图片描述](https://www.gaobug.com/bigscreen/a-img/setting2.png)
 
 
 
