@@ -70,7 +70,6 @@ export const optionHandle = (regionCode: string, list: object[], mapData: Mapdat
         aspectScale: 0.78,
         data: list,
         showLegendSymbol: false, // 禁用默认标记点
-        symbol: "none", // 直接不显示标记
         selectedMode: false, //是否允许选中多个区域
         zoom: zoom,
         geoIndex: 2,
