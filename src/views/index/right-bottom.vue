@@ -72,7 +72,7 @@ onMounted(() => {
     >
       <ul class="right_bottom">
         <li class="right_center_item" v-for="(item, i) in state.list" :key="i">
-          <span class="orderNum">{{ i + 1 }}</span>
+          <span class="orderNum">{{ Number(i) + 1 }}</span>
           <div class="inner_right">
             <div class="dibu"></div>
             <div class="flex">

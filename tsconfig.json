@@ -3,8 +3,9 @@
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "strict": true,
+    "skipLibCheck": true,
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
@@ -14,7 +15,6 @@
       "esnext",
       "dom"
     ],
-    "baseUrl": "./",
     "types": [
       "node",
       "vite/client",
@@ -22,10 +22,10 @@
     ],
     "paths": {
       "@/*": [
-        "src/*"
+        "./src/*"
       ],
       "api/*": [
-        "src/api/*"
+        "./src/api/*"
       ],
     }
   },

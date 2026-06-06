@@ -4,9 +4,9 @@ import type { DefaultConfigType } from "./index.d";
 import { cloneDeep } from "lodash-es";
 import { merge } from "lodash-es";
 const mergedConfig = ref<any>(null);
-const capsuleLength = ref<any>([]);
-const capsuleValue = ref<any>([]);
-const labelData = ref<any>([]);
+const capsuleLength = ref<number[]>([]);
+const capsuleValue = ref<number[]>([]);
+const labelData = ref<number[]>([]);
 // const labelDataLength = ref<any>([]);
 
 const defaultConfig = reactive<DefaultConfigType>({
@@ -45,7 +45,7 @@ const mergeConfig = () => {
 };
 const calcCapsuleLengthAndLabelData = () => {
     if (!props.data.length) return;
-    const newcapsuleValue = props.data.map((item: any) => item.value);
+    const newcapsuleValue = props.data.map((item: any) => Number(item.value));
     const maxValue = Math.max(...newcapsuleValue);
     capsuleValue.value = newcapsuleValue;
     capsuleLength.value = newcapsuleValue.map((v: any) =>

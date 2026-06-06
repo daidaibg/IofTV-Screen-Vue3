@@ -1,0 +1,7 @@
+{
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "Always generate Git commit messages in Simplified Chinese. Use Conventional Commits format with types such as feat, fix, docs, style, refactor, perf, test, build, and chore. Do not generate English commit descriptions."
+    }
+  ]
+}
